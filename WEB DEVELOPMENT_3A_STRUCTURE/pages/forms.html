@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite Simple Structure</title>
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<style>
+    .form1{
+        float: left;
+        
+    }
+    .form2{
+        float: right;   
+}
+fieldset{
+    background-color: white;
+    height: 500px;
+    font-style:italic;
+}
+input[type="submit"] {
+                padding: 10px 20px;
+                margin-left: 475px;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #04af2f;
+            }
+            legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            fieldset {
+                border: 1px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+            
+   
+   
+          
+
+
+
+</style>
+
+<body>
+    <header>
+        <h1>Collage Of Information And Computing Science</h1>
+        <h3>Santa Cruz Campus</h3>
+        <div class="container">
+            <a href="../index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="contact.html">Contact Us</a>|
+            <a href="Inquiry.html">Inquiry</a>|
+            <a href="profile.html">Profile</a>|
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="List.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="images.html">Image</a></li>
+            </ul>
+        </nav>
+        <article>
+         
+            <h1>Forms</h1>
+            <div class="form2">
+                <fieldset>
+                    <legend><b>Description</b></legend>
+                    <br>
+             
+                    <label for="">Password:</label>
+                    <input type="password" name="passworddata" id="passworddata"><br><br>
+
+                    <label for="">Confirm Password:</label>
+                    <input type="password" name="passworddata" id="passworddata"><br><br>
+
+                <form>
+                    Description : <br />
+                    <textarea rows = "5" 
+                              cols = "50" 
+                              name = "description">
+                       Enter description here...
+                    </textarea>
+                 </form>
+
+              
+
+               
+
+
+
+                 <p align="center">
+                    <input type="submit" value="Submit">
+                 </p>
+
+            </div>
+        
+
+            <fieldset>
+                <legend><b>Your Information</b></legend>
+                <br>
+
+            <label for="">Last Name:</label> <br>
+            <input type="lastname" name="lname" id="lname"><br>
+            <label for="">First Name:</label> <br>
+            <input type="firstnanme" name="fname" id="fname"><br>
+            <label for="">Age:</label><br>
+            <input type="age" name="agedata" id="agedata"><br> 
+            <label for="">BirthDate:</label><br>
+            <input type="date" name="birthDate" id="BirthDate"><br>
+            <label for="">Address:</label><br>
+            <input type="address" name="addressData" id="addressData"><br><br>
+            <label for="">Gender:</label>
+            <form>
+                <input type = "radio" 
+                       name = "Gender" 
+                       value = "maths"> 
+                Male
+                <input type = "radio" 
+                       name = "Gender" 
+                       value = "physics"> 
+                Female
+             </form><br>
+             <label for="">Email:</label>
+             <input type="email" name="mail" required/>
+             <br><br>
+             <label for="">Course:</label>
+             <select>
+                <option value="" disabled selected>--Chose your Cousre--</option>
+                <option value="">BSIS</option>
+                <option value="">BSTM</option>
+                <option value="">BEED</option>
+                <option value="">ABPholsci</option>
+             </select><br><br>
+
+             <label for="">Upload Your files:</label>
+             <input type="file" name="filedata" id="filedata"><br>
+
+
+            
+            </fieldset>
+            
+                
+
+         
+
+
+
+
+
+             <!--   <form action="form.post.php" method="post">
+                    <label for="">Enter your name</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="">Enter your age</label>
+                    <input type="number" name="age" id="age"><br>
+                    <input type="submit" value="submit">
+                </form>-->
+
+          
+                    
+
+
+
+            </body>
+               
+               
+                
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a>  |
+            <a href="policy.html">Policy</a>  |
+            <a href="TermAndUSe.html">Terms of Use</a>  |
+            <a href="privacy.html">Privacy</a>  |
+            <a href="FAQ.html">FAQ</a>  |
+            <a href="contact.html">Contact</a>  |
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024.</b> MarSU Sta Cruz Campus</p>
+        </div>
+    </footer>
+
+</body>
+</html>

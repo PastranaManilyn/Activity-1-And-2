@@ -1,0 +1,118 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+section p{
+    font-style:Times New Roman;
+    font-size: larger;
+    padding: 5px;
+}
+header{
+    background-color: #ca0d7b;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+}
+header .container a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+header .container a:hover{
+    background-color:#ec5cb0;
+
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: #f036a2;
+    height: 800px;
+}
+article{
+    float: left;
+    width:70%;
+    background-color: #f19cd8;
+    height: 800px;
+    padding-left:50px;
+    padding-right: 5%;
+}
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+.navigation_menu li:hover{
+    background-color:#ca0d7b;
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer{
+    text-align: center;
+    background-color:#ca0d7b;
+    padding: 15px;
+}
+footer h2{
+    color: white;
+}
+footer_menu a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+}
+
+.footer_menu a:hover{
+    background-color: #ffaaa6;
+    
+
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: white;
+}
+input-textarea{
+        
+        width:200px;
+        height:200px;
+}
+/*This is for Table */
+table{
+    width: 50%;
+    background-color:aquamarine;
+    border-collapse:collapse;
+    margin-bottom: 20px;
+    height: 50px;
+}
+th{ 
+    background-color: chocolate;
+    color: white;
+}
+
+.table_data{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    height: 50px;
+    
+}
+tr:nth-child(even){
+    background-color:rgb(248, 159, 177);
+}
+/* This Is the Stye for HTML List*/
+.firstcolumn{
+    float: left;
+
+}
+.secondcolumn{
+    float: right;
+}
+.select1{
+    float: right;
+   }
+
+
+

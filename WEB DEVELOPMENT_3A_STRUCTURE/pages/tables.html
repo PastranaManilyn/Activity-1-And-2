@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite Simple Structure</title>
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+    <header>
+        <h1>Collage Of Information And Computing Science</h1>
+        <h3>Santa Cruz Campus</h3>
+        <div class="container">
+            <a href="../index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="contact.html">Contact Us</a>|
+            <a href="Inquiry.html">Inquiry</a>|
+            <a href="profile.html">Profile</a>|
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="List.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="images.html">Image</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Tables</h2>
+            <p align="justify"> </p>
+            <table border="1" class="table_data">
+                <colgroup>
+                    <col style="width: 40%;">
+                    <col style="width: 30%;">
+                    <col style="width: 30%;">
+                </colgroup>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                  <td>Laptop</td>
+                  <td>Electronics</td>
+                  <td>$900</td>
+                </tr>
+                <tr>
+                    <td>Mobile Phone</td>
+                    <td>Electronics</td>
+                    <td>$900</td>
+                  </tr>
+                  <tr>
+                    <td>Tablet</td>
+                    <td>Electronics</td>
+                    <td>$900</td>
+                  </tr>
+            </table>
+            <p>THIS IS FOR THE TABLE STRUCTURE WITH THEAD,TBODY AND TFOOTER</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Manilyn Pastrana</td>
+                        <td>20</td>
+                        <td>BSIS-3A</td>
+                    </tr>
+                    <tr>
+                      
+                        <td>20</td>
+                        <td>AbPholSci-3A</td>
+                    </tr>
+                    <tr>
+                        <td>John Edward Nacawili</td>
+                        <td>20</td>
+                        <td>BSMT-3A</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><small>Info</small></td>
+                        <td><small>Info</small></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <!--Nested table-->
+            <h3><b>Nested Table</b></h3>
+            <table border="1">
+              <figcaption><b>Table 1.</b> This is Sample Data in Table</figcaption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Content of A Table</th>
+                    </tr>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Nike Shoes
+                        <table border="1">
+                            <tr>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>40</td>
+                                    <td>White</td>
+                                </tr>
+                                <tr>
+                                    <td>38</td>
+                                    <td>Black</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>35</td>
+                    <td>$2500</td>
+                </tr>
+                <tr>
+                    <td>Adidas Shoes</td>
+                    <td>12</td>
+                    <td>$3000</td>
+                </tr>
+                <tr>
+                    <td>Puma Shoes</td>
+                    <td>14</td>
+                    <td>$2700</td>
+                </tr>
+            </tbody>
+                <tfoot></tfoot>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a>  |
+            <a href="policy.html">Policy</a>  |
+            <a href="TermAndUSe.html">Terms of Use</a>  |
+            <a href="privacy.html">Privacy</a>  |
+            <a href="FAQ.html">FAQ</a>  |
+            <a href="contact.html">Contact</a>  |
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024.</b> MarSU Sta Cruz Campus</p>
+        </div>
+    </footer>
+
+</body>
+</html>
